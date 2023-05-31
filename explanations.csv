@@ -1,0 +1,26 @@
+Variable,Explanations
+AGE,The age of the patient at the time of admission.
+LOS,The length of stay of the patient in the hospital.
+TYPE,"The type of admission (e.g. medical, surgical)"
+MV_24_HOUR,A binary variable indicating whether the patient received mechanical ventilation within the first 24 hours of ICU admission
+INITIAL_SOFA_CARDIO,The initial SOFA score for the cardiovascular system.
+DISCHARGE_SOFA_NERV,The SOFA score for the nervous system at discharge.
+DISCHARGE_SOFA_RESPIRATORY,The SOFA score for the respiratory system at discharge.
+MAX_SOFA_CARDIO,The maximum SOFA score for the cardiovascular system during hospitalization.
+MAX_SOFA,The maximum total SOFA score during hospitalization.
+AVER_SOFA_LIVER,The average SOFA score for the liver during hospitalization.
+AVER_SOFA_NERV,The average SOFA score for the nervous system during hospitalization
+VAR_SOFA,The total variance of the SOFA score.
+DISCHARGEAPACHE,Apache II score at the time of patient's discharge from the ICU.
+MEANAPACHE,Mean Apache II score during the stay of patient in the ICU
+MAXAPACHE,Maximum Apache II score during the stay of patient in the ICU.
+ALBUMIN,A protein produced by the liver that is important for maintaining the balance of fluids in the body.
+MIN_TEMP,A measure of the lowest temperature reading that is used to identify the presence of Systemic Inflammatory Response Syndrome
+MAX_TEMP,A measure of the highest temperature reading that is used to identify the presence of Systemic Inflammatory Response Syndrome
+BLOOD_UREA_NITROGEN,Blood Urea Nitrogen is a commonly ordered laboratory test that measures the level of urea nitrogen in the blood.
+HEMATOCRIT,This column represents the hematocrit levels (in %) of each patient during their stay in the ICU.
+MAX_HEART_RATE,This column represents the maximum heart rate observed during the stay in ICU.
+MIN_HEART_RATE,This column represents the minimum heart rate observed during the stay in ICU.
+DEST_LEVEL_OF_CARE_Regular,The destination level of care of Regular provided to the patient after treatment.
+DEST_LEVEL_OF_CARE_SDU,The destination level of care of SDU provided to the patient after treatment.
+DEST_LEVEL_OF_CARE_out,The destination level of care of out provided to the patient after treatment.
