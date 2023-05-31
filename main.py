@@ -66,7 +66,7 @@ def plot_violin(variable):
     st.pyplot(plt)
 ############################
 # PAGE CUSTOMIZATION
-st.set_page_config(page_title="Readmission ML", page_icon="⚕️", layout="wide")
+st.set_page_config(page_title="Readmission ML", page_icon="🚑", layout="wide")
 ##########
 page = st.sidebar.selectbox("Select a page", ["Main Page", "Probability", "Graphs", "Variables"])
 if page == "Main Page":
