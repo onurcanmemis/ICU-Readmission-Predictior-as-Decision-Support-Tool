@@ -206,7 +206,7 @@ elif page == "Variables":
         effect = np.exp(coefficients[i]) - 1
         effects.append("{:.4f}".format(effect))
     dataframe=pd.DataFrame(data={"Coefficients": coefficients[1:26],
-                                 "Effect of a one-unit change in each variable on the outcome":Effects
+                                 "Effect of a one-unit change in each variable on the outcome":Effects,
                                  "Description": explanations["Explanations"].values},
                            index=feature_names)
     styler = dataframe.style
