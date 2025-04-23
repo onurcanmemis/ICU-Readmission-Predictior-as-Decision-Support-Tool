@@ -37,7 +37,7 @@ A comparative analysis was conducted using the following algorithms:
 ---
 
 ## ✅ Selected Model for Deployment
-The **Random Forest Classifier** was selected for deployment based on its consistent performance across multiple evaluation metrics and its interpretability in clinical settings.
+The **Logistic Regression** coefficients was selected for deployment based on its consistent performance across multiple evaluation metrics and its interpretability in clinical settings.
 
 ---
 
@@ -48,15 +48,3 @@ An interactive **Streamlit app** was developed to operationalize the model:
 - 📊 Predicts ICU readmission risk in real-time
 - 🔄 Designed for use by clinicians and researchers
 
----
-
-## 📁 Repository Structure
-```bash
-.
-├── README.md               # Project summary
-├── thesis.pdf              # Full thesis document
-├── streamlit_app/          # Streamlit app code
-├── model/
-│   └── rf_model.pkl        # Trained Random Forest model
-└── data/
-    └── processed_data.csv  # Cleaned dataset
